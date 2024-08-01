@@ -2,7 +2,7 @@ This is a reproduction of an environment variable issue with Next.js v14.2.x.
 
 ## Issue
 
-Empty environment variables ("") are not consistent between server and client.
+Empty environment variables (or "") are not consistent between server and client.
 
 Zod throws a validation error on the client after validating properly on the server.
 
